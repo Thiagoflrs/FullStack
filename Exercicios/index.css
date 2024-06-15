@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 99vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+    
+.produto {
+    width: 220px;
+    border-radius: 16px;
+    padding: 16px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+    transition: box-shadow .2s;
+    cursor: pointer;
+    box-shadow: 
+        0px 2.2px 2.2px -26px rgb(0, 0, 0, 0.02),
+        0px 5.4px 5.3px -26px rgb(0, 0, 0, 0.028),
+        0px 10.1px 10px -26px rgb(0, 0, 0, 0.035),
+        0px 18.1px 17.9px -26px rgb(0, 0, 0, 0.042),
+        0px 33.8px 33.4px -26px rgb(0, 0,  0, 0.051),
+        0px 81px 88px -26px rgb(0, 0, 0, 0.07);
+
+}
+
+.produto:hover {
+    box-shadow:
+        0px 2.8px 2.2px rgb(0, 0, 0, 0.02), 
+        0px 6.7px 5.3px rgb(0, 0, 0, 0.028)
+        0px 12.5px 10px rgb(0, 0, 0, 0.035)
+        0px 22.3px 17.9px rgb(0, 0, 0, 0.042)
+        0px 41.8px 33.4px rgb(0, 0, 0, 0.05)
+        0px 100px 80px rgb(0, 0, 0, 0.07);
+}
+
+.produto img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.título {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    margin: 0;
+    margin-top: 8px;
+
+    font-size: 14px;
+    font-weight: 400;
+    color: #191919;
+}
+
+.quantidade-vendida {
+    margin: 2px 4px;
+    color: #757575;
+    font-size: 12px;
+}
+
+.preços {
+    font-size: 12px;
+}
+
+.preço {
+    font-weight: 700;
+}
+
+.desconto {
+    text-decoration: line-through;
+    color: rgb(153, 153, 153);
+}
+
+.preço span {
+    font-size: 24px;
+}
+
+.frete {
+    margin-top: 8px;
+    font-size: 14px;
+}
