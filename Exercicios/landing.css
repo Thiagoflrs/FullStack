@@ -310,7 +310,7 @@ body {
     padding-left: 563px;
     align-items: center;
     padding-top: 240px;
-
+    background-color: #E7ECFF;
 }
 
 .principal {
@@ -358,14 +358,14 @@ body {
     line-height: 26px;
     text-align: center;
     color: #37447E;
-    margin-left: 100px;
+    margin-left: 110px;
 }
 
 
 .info p {
     width: 350px;
     height: 24px;
-    margin-left: 100px;
+    margin-left: 110px;
     text-align: center;
     font-size: 14px;
     font-weight: 400px;
@@ -378,7 +378,7 @@ body {
     width: 189px;
     height: 31.81px;
     margin-top: 4px;
-    margin-left: 175px;
+    margin-left: 190px;
     background-color: #111B47;
     text-align: center;
     align-content: center;
@@ -393,6 +393,7 @@ body {
 footer {
     width: 1690.3px;
     height: 216px;
+    background-color: #E7ECFF;
 }
 
 .topofoot {
