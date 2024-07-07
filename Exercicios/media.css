@@ -1,0 +1,19 @@
+main {
+    & section {
+        & article {
+            & p {
+                background-color: red;
+
+                @media (min-width: 768px) and (max-width:1024px) {
+                    background-color: green;
+                }
+
+                @media (min-width: 320px) and (max-width:480px) {
+                    background-color: blue;
+                }
+            }
+        }
+    }
+}
+
+

@@ -6,9 +6,15 @@
     font-size: 18px;
 }
 
+:root {
+    --cor-letra: #505F98;
+    --cor-letra2: #111B47;
+    --cor-letra3: #091133;;
+}
+
 body {
     width: 1440px;
-    height: 4628px;    
+    height: 4628px;   
 }
 
 .pag {
@@ -24,7 +30,6 @@ body {
 .pag1 {
     width: 1690.03px;
     height: 1161px;
-
 }
 
 .header {
@@ -46,7 +51,7 @@ body {
     font-size: 14px;
     padding-left: 15px;
     padding-right: 15px;
-    color: #505F98;
+    color: var(--cor-letra);
 }
 
 .main {
@@ -63,7 +68,7 @@ body {
     height: 26px;
     margin-left: 415px;
     text-align: center;
-    background-color: #111B47;
+    background-color: var(--cor-letra2);
     font-size: 12px;
     font-weight: 500px;
     color: #FFFFFF;
@@ -104,14 +109,14 @@ body {
 }
 
 #purchase {
-    background-color: #111B47;
+    background-color: var(--cor-letra2);
     color: #FFFFFF;
     border: none;
 }
 
 #learn {
-    color: #091133;
-    border: 2px solid #091133;
+    color: var(--cor-letra3);
+    border: 2px solid --cor-letra3;
 }
 
 .aba2 {
@@ -134,7 +139,7 @@ body {
     font-weight: 500px;
     font-size: 36px;
     line-height: 48px;
-    color: #091133;
+    color: var(--cor-letra3);
 }
 
 .text4 {
@@ -195,7 +200,7 @@ body {
     height: 48px;
     font-weight: 500px;
     line-height: 48px;
-    color: #091133;
+    color: var(--cor-letra3);
 }
 
 .text6 {
@@ -230,7 +235,7 @@ body {
     font-size: 36px;
     font-weight: 500px;
     line-height: 48px;
-    color: #091133;
+    color: var(--cor-letra3);
 }
 
 .text8 {
@@ -266,7 +271,7 @@ body {
     font-size: 36px;
     font-weight: 500px;
     line-height: 48px;
-    color: #091133;
+    color: var(--cor-letra3);
 }
 
 .text10 {
@@ -281,7 +286,7 @@ body {
 
 
 #purchase5 {
-    background-color: #111B47;
+    background-color: var(--cor-letra2);
     color: #FFFFFF;
     border: none;
     width: 150px;
@@ -314,7 +319,7 @@ body {
     font-size: 36px;
     line-height: 48px;
     text-align: center;
-    color: #091133;
+    color: var(--cor-letra3);
 }
 
 .texend {
@@ -365,14 +370,13 @@ body {
 
 
 #purchase6 {
-    background-color: #111B47;
+    background-color: var(--cor-letra2);
     color: #FFFFFF;
     border: none;   
     width: 189px;
     height: 31.81px;
     margin-top: 4px;
     margin-left: 190px;
-    background-color: #111B47;
     text-align: center;
     align-content: center;
 }
@@ -414,7 +418,7 @@ footer {
     line-height: 18px;
     font-weight: 500px;
     text-align: center;
-    background-color: #111B47;
+    background-color: var(--cor-letra2);
     color: #FFFFFF;
 }
 
